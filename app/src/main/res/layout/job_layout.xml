@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhiteSmoke"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/jobTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/jobTypeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT" />
+
+        <TextView
+            android:id="@+id/jobLocationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Canada" />
+
+        <TextView
+            android:id="@+id/salaryTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$75000" />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
